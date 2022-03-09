@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1635129054 source:d:\miguel\documents\códigos\c\bibliotecas\funciones.c
+	"funciones.h"
+
+1635127862 d:\miguel\documents\códigos\c\bibliotecas\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1635129385 source:d:\miguel\documents\códigos\c\bibliotecas\prueba_funciones.c
+	"funciones.h"
+

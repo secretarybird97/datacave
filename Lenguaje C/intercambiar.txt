@@ -1,0 +1,30 @@
+/ Addition Calculator
+/ by the MARIE.js Team
+/ Copyright (C) 2016. Licensed under the MIT License
+
+Input
+Store A
+Output
+Input 
+Store B
+Output
+JnS Intercambiar
+Load A
+Output
+Load B
+Output
+Halt
+
+Intercambiar, HEX 000
+	Load A
+    Store Z
+    Load B
+    Store A
+    Load Z
+    Store B
+    Clear
+    JumpI Intercambiar
+
+A, DEC 0
+B, DEC 0
+Z, DEC 0

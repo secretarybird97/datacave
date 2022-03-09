@@ -1,0 +1,26 @@
+void ordenar()
+{
+   FILE *flujo;
+   int i, j;
+
+   int n;
+   struct anuncio a,b;
+
+   flujo=fopen("registros_anuncios.dat","rb+");
+
+   if (flujo==NULL)
+      printf("No se puede realizar la operacion");
+   else
+   {
+        i=0;
+        n=tamano(flujo)/sizeof(struct anuncio);
+        printf("Ordenando %d registros ", n);
+        getchar();
+        for(i=0;i<n-1;i++)
+        {
+            for(j=i+1;j<n;j++)
+            {
+                fseek(flujo,i*sizeof(struct anuncio),SEEK_SET);
+              
+void ordenar();
+long int tamano(FILE *);

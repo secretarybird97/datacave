@@ -1,0 +1,2 @@
+
+    print(i, contadores[i])

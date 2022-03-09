@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "C:\\Users\\Miguel\\anaconda3\\python.exe",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "cmath": "c"
+    }
+}
