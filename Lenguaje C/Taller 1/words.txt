@@ -1,0 +1,5 @@
+    print(" "*n, end="")
+    print("-"*k, end="")
+    print(" "*n)
+    n-=1
+    k+=2

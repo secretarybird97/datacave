@@ -1,2 +1,0 @@
-
-int reversa(int x){
